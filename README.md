@@ -1,4 +1,4 @@
-# The full project is in the subfolder MMAI894
+# The full project is in the subfolder MMAI894 - Please note this was written using Tensorflow V1, 2020 V2 was released code was note updated
 # Indoor Scene Prediction #
 
 Indoor Scene Recognition, also known as MIT67 image recognition dataset, consists of a total of 15,520 images of indoor environments across 67 categories. The images were collected from different online sources across the global such as Google, Flickr, and the famous LabelMe dataset. The different indoor categories vary dramatically across all spectrum from indoor airports to hair salon.  Moreover, the number of images per category also varies across, but it was guaranteed to contain at least 100 images per category. All the images have a bare minimum resolution of 200 pixel in the smallest axis, nevertheless images were in different sizes. With 67 classes, the dataset posed a challenge in variability and distinguishability between classes. Furthermore, there were very few distinctive attributes in comparison with similar category of images. For example, bedroom, children room, and nursery presented few objects that helped to distinguish from each other.  
@@ -65,4 +65,7 @@ Comparing to the second fine-tune model, the third fine-tune model changes the 3
 ![m4loss](https://github.com/UWMonkey/CNN/blob/master/image/mode4loss.png)
 ![m4acc](https://github.com/UWMonkey/CNN/blob/master/image/mode4acc.png)
 
+
+Sample of tensorboard used 
+![tensor](https://github.com/UWMonkey/CNN/blob/master/image/example%20tensorboard.png)
 
